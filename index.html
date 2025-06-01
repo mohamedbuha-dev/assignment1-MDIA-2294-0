@@ -110,6 +110,7 @@
 		document.getElementById("calculate").addEventListener("click", calculate)
 	    function calculate() {
 			let subTotal = 0;
+				/* loop to calc each line */
 			for (let i = 1; i <= 5; i ++){
 				const quantity = parseFloat(document.getElementById("line-" + i + "-quantity").value);
 				const price = parseFloat(document.getElementById("line-" + i + "-price").value);
